@@ -85,7 +85,7 @@ public class Main {
         System.out.println(Arrays.toString(arr));
         int compare = arr[0] * arr[0] * arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (compare < arr[i]) {
+            if (compare > arr[i]) {
                 arr2 = ArrayUtils.add(arr2, arr[i]);
                 quantity_del++;
             } else {
